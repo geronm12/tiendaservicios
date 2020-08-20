@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.Autor", "TiendaServicios.Api.Autor\TiendaServicios.Api.Autor.csproj", "{3F9ACE14-501F-41C1-B362-4BE07A0CA84A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicios.Api.Autor", "TiendaServicios.Api.Autor\TiendaServicios.Api.Autor.csproj", "{3F9ACE14-501F-41C1-B362-4BE07A0CA84A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.Libro", "TiendaServicios.Api.Libro\TiendaServicios.Api.Libro.csproj", "{6E8DA894-4402-4FAF-95F3-9E5B1A76BF30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicios.Api.Libro", "TiendaServicios.Api.Libro\TiendaServicios.Api.Libro.csproj", "{6E8DA894-4402-4FAF-95F3-9E5B1A76BF30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.Carrito", "TiendaServicios.Api.Carrito\TiendaServicios.Api.Carrito.csproj", "{A54BE66E-FDDC-4450-8876-DA2104836179}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicios.Api.Carrito", "TiendaServicios.Api.Carrito\TiendaServicios.Api.Carrito.csproj", "{A54BE66E-FDDC-4450-8876-DA2104836179}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.Libro.Tests", "TiendaServicios.Api.Libro.Tests\TiendaServicios.Api.Libro.Tests.csproj", "{06C55AA0-104F-4B81-9B91-A7AEF213ED27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.Autor.Tests", "TiendaServicios.Api.Autor.Test\TiendaServicios.Api.Autor.Tests.csproj", "{F67718D3-566A-44E3-A1E2-B953F587C533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.Carrito.Tests", "TiendaServicios.Api.Carrito.Tests\TiendaServicios.Api.Carrito.Tests.csproj", "{76B766FE-05F6-4376-8446-A3B6898296C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{A54BE66E-FDDC-4450-8876-DA2104836179}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A54BE66E-FDDC-4450-8876-DA2104836179}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A54BE66E-FDDC-4450-8876-DA2104836179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06C55AA0-104F-4B81-9B91-A7AEF213ED27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C55AA0-104F-4B81-9B91-A7AEF213ED27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C55AA0-104F-4B81-9B91-A7AEF213ED27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C55AA0-104F-4B81-9B91-A7AEF213ED27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67718D3-566A-44E3-A1E2-B953F587C533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67718D3-566A-44E3-A1E2-B953F587C533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67718D3-566A-44E3-A1E2-B953F587C533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67718D3-566A-44E3-A1E2-B953F587C533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76B766FE-05F6-4376-8446-A3B6898296C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B766FE-05F6-4376-8446-A3B6898296C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B766FE-05F6-4376-8446-A3B6898296C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B766FE-05F6-4376-8446-A3B6898296C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,6 +9,11 @@ namespace TiendaServicios.Api.Libro.Persistencia
 {
     public class ContextoLibreria: DbContext
     {
+        public ContextoLibreria()
+        {
+
+        }
+
         public ContextoLibreria(DbContextOptions<ContextoLibreria> options)
             :base(options)
         {
@@ -16,7 +21,7 @@ namespace TiendaServicios.Api.Libro.Persistencia
         }
 
 
-        public DbSet<LibreriaMaterial> LibreriaMaterial { get; set; }
+        public virtual DbSet<LibreriaMaterial> LibreriaMaterial { get; set; }
 
     }
 }

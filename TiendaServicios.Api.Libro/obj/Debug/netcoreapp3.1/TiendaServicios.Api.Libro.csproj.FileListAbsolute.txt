@@ -2,7 +2,6 @@ Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\bin\Debug\
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\bin\Debug\netcoreapp3.1\appsettings.json
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\bin\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.exe
-Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.csprojAssemblyReference.cache
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.AssemblyInfoInputs.cache
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.AssemblyInfo.cs
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.RazorTargetAssemblyInfo.cache
