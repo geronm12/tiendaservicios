@@ -31,13 +31,13 @@ namespace TiendaServicios.Api.Autor.Controllers
         }
     
         [HttpGet]
-        public async Task<ActionResult<List<AutorLibro>>> GetAutores()
+        public async Task<ActionResult<List<AutorDto>>> GetAutores()
         {
             return await _mediator.Send(new Consulta.ListAutor());
         }
     
         [HttpGet("{Id}")]
-        public async Task<ActionResult<AutorLibro>> ObtenerPorId(string Id)
+        public async Task<ActionResult<AutorDto>> ObtenerPorId(string Id)
         {
             return await _mediator.Send(new ConsultaFiltro.AutorUnico
             {
