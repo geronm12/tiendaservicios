@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.Autor",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.Libro", "TiendaServicios.Api.Libro\TiendaServicios.Api.Libro.csproj", "{6E8DA894-4402-4FAF-95F3-9E5B1A76BF30}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.Carrito", "TiendaServicios.Api.Carrito\TiendaServicios.Api.Carrito.csproj", "{A54BE66E-FDDC-4450-8876-DA2104836179}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6E8DA894-4402-4FAF-95F3-9E5B1A76BF30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E8DA894-4402-4FAF-95F3-9E5B1A76BF30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E8DA894-4402-4FAF-95F3-9E5B1A76BF30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54BE66E-FDDC-4450-8876-DA2104836179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54BE66E-FDDC-4450-8876-DA2104836179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54BE66E-FDDC-4450-8876-DA2104836179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54BE66E-FDDC-4450-8876-DA2104836179}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
