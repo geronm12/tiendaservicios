@@ -19,11 +19,30 @@ namespace TiendaServicios.Api.Libro.Controllers
             _mediator = mediator;
 
         }
-        
+
         [HttpPost]
         public async Task<ActionResult<Unit>> Crear(Nuevo.Ejecuta data)
         {
             return await _mediator.Send(data);
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<List<LibroDto>>> GetLibros()
+        {
+
+            return await _mediator.Send(new Consulta.ListLibros());
+
+        }
+
+        [HttpGet("{Id}")]
+        public async Task<ActionResult<LibroDto>> GetById(Guid libroId)
+        {
+            return await _mediator.Send(new ConsultaFiltro.LibroUnico
+            {
+
+                LibroId = libroId
+
+            });
         }
 
     }

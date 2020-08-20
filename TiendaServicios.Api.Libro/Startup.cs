@@ -40,7 +40,7 @@ namespace TiendaServicios.Api.Libro
 
             services.AddMediatR(typeof(Nuevo.Manejador).Assembly);
 
-           
+            services.AddAutoMapper(typeof(Consulta.ListLibros));
 
         }
 
