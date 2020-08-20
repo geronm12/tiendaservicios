@@ -147,4 +147,5 @@ Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro.Tests\bin\
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro.Tests\bin\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.pdb
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro.Tests\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.Tests.csprojAssemblyReference.cache
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro.Tests\bin\Debug\netcoreapp3.1\GenFu.dll
+Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro.Tests\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro.Tests\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.Tests.csproj.CoreCompileInputs.cache

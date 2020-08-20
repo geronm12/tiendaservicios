@@ -52,6 +52,7 @@ namespace TiendaServicios.Api.Libro.Tests
 
             return (TResult)typeof(Task).GetMethod(nameof(Task.FromResult))
                 ?.MakeGenericMethod(resultadoTipo).Invoke(null, new[] { ejecicionResultad });
+
         }
     }
 }

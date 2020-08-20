@@ -9,6 +9,7 @@
       "TiendaServicios.Api.Libro.Tests/1.0.0": {
         "dependencies": {
           "GenFu": "1.6.0",
+          "Microsoft.EntityFrameworkCore.InMemory": "3.1.7",
           "Microsoft.NET.Test.Sdk": "16.5.0",
           "Moq": "4.14.5",
           "TiendaServicios.Api.Libro": "1.0.0",
@@ -217,6 +218,17 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/3.1.7": {},
+      "Microsoft.EntityFrameworkCore.InMemory/3.1.7": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.7"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "assemblyVersion": "3.1.7.0",
+            "fileVersion": "3.100.720.37109"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/3.1.7": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "3.1.7"
@@ -1920,6 +1932,13 @@
       "sha512": "sha512-zSh3QF/Kz8fdVgyStQ1HYUGFDRqFbUR1UBpfa8tUuB0OutYab9R4aYdjkD8i9w9P5VZyHXqQNglh2cQHBFLtjg==",
       "path": "microsoft.entityframeworkcore.analyzers/3.1.7",
       "hashPath": "microsoft.entityframeworkcore.analyzers.3.1.7.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/3.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tzNo8eJVLq6NkJ5+pd2EEqtEM5tS1GQpd0btZtIOoGyJwCivv2MgT2eQEAbmyfcCAwnizxZnCAQaEeef6+uWDw==",
+      "path": "microsoft.entityframeworkcore.inmemory/3.1.7",
+      "hashPath": "microsoft.entityframeworkcore.inmemory.3.1.7.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/3.1.7": {
       "type": "package",

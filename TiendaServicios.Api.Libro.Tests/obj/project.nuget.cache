@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Iok82YRm2Qgs8nIAKOIVf7wxYQpI5+rACSRa+L0zUgkPDH9E3SXYTnSvqFwIWxwyVr+zmzTNfdor1m4P/OuzHQ==",
+  "dgSpecHash": "Pn+uFeGqGOwRpbKPvNfFLoWjW4amn99X38YpmecLVztz6+vFmD9MdRedl7OOVcpedvSE2E/+faQdpTLj2wi1Ig==",
   "success": true,
   "projectFilePath": "Z:\\PROGRAMACION\\C#\\.NETCORE\\TiendaServicios\\TiendaServicios.Api.Libro.Tests\\TiendaServicios.Api.Libro.Tests.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\gerol\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.7\\microsoft.entityframeworkcore.3.1.7.nupkg.sha512",
     "C:\\Users\\gerol\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.7\\microsoft.entityframeworkcore.abstractions.3.1.7.nupkg.sha512",
     "C:\\Users\\gerol\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.7\\microsoft.entityframeworkcore.analyzers.3.1.7.nupkg.sha512",
+    "C:\\Users\\gerol\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\3.1.7\\microsoft.entityframeworkcore.inmemory.3.1.7.nupkg.sha512",
     "C:\\Users\\gerol\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.7\\microsoft.entityframeworkcore.relational.3.1.7.nupkg.sha512",
     "C:\\Users\\gerol\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.7\\microsoft.entityframeworkcore.sqlserver.3.1.7.nupkg.sha512",
     "C:\\Users\\gerol\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.7\\microsoft.extensions.caching.abstractions.3.1.7.nupkg.sha512",

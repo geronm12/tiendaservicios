@@ -60,14 +60,31 @@ namespace TiendaServicios.Api.Libro.Tests
 
         }
 
+        [Fact]
+        public async void GetLibroPorId()
+        {
+            var mock = CrearContexto();
 
+            var mapConfig = new MapperConfiguration(cfg => cfg.AddProfile(new MappingProfile()));
 
+            var mapper = mapConfig.CreateMapper();
+
+            var request = new ConsultaFiltro.LibroUnico();
+            request.LibroId = Guid.Empty;
+
+            var manejador = new ConsultaFiltro.Manejador(mock.Object, mapper);
+
+            var result = await manejador.Handle(request, new CancellationToken ());
+
+            Assert.NotNull(result);
+            Assert.True(result.LibreriaMaterialId == Guid.Empty);
+
+        }
 
 
         [Fact]
         public async void GetLibros()
-        {
-            System.Diagnostics.Debugger.Launch();
+        { 
 
             var mockContexto = CrearContexto();
 
@@ -84,6 +101,33 @@ namespace TiendaServicios.Api.Libro.Tests
             Assert.True(result.Any());
             
         }
+    
+    
+    
+        [Fact]
+        public async void GuardarLibro()
+        {
+            var options = new DbContextOptionsBuilder<ContextoLibreria>()
+                .UseInMemoryDatabase(databaseName: "BaseDatosLibro")
+                .Options;
+
+            var context = new ContextoLibreria(options);
+
+            var request = new Nuevo.Ejecuta
+            {
+                Titulo = "La naranja mecánica",
+                AutorLibro = Guid.Empty,
+                FechaPublicacion = DateTime.Now
+            };
+
+            var manejador = new Nuevo.Manejador(context);
+
+            var result = await manejador.Handle(request, new CancellationToken());
+
+            Assert.True(result != null);
+
+        }
+    
     
     }
 }
