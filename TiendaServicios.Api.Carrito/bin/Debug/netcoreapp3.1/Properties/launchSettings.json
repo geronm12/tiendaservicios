@@ -20,7 +20,7 @@
     "TiendaServicios.Api.Carrito": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/carritocompras",
+      "launchUrl": "api/CarritoCompras",
       "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

@@ -35,12 +35,12 @@ namespace TiendaServicios.Api.Libro.Controllers
         }
 
         [HttpGet("{Id}")]
-        public async Task<ActionResult<LibroDto>> GetById(Guid libroId)
+        public async Task<ActionResult<LibroDto>> GetById(string Id)
         {
             return await _mediator.Send(new ConsultaFiltro.LibroUnico
             {
 
-                LibroId = libroId
+                LibroId = Guid.Parse(Id)
 
             });
         }

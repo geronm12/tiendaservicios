@@ -5,8 +5,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System;
 using TiendaServicios.Api.Carrito.Aplicacion;
 using TiendaServicios.Api.Carrito.Persistencia;
+using TiendaServicios.Api.Carrito.RemoteInterface;
+using TiendaServicios.Api.Carrito.RemoteService;
 
 namespace TiendaServicios.Api.Carrito
 {
@@ -31,6 +34,13 @@ namespace TiendaServicios.Api.Carrito
 
             services.AddMediatR(typeof(Nuevo.Manejador).Assembly);
 
+            services.AddHttpClient("Libros", config =>
+            {
+                config.BaseAddress = new Uri(Configuration["Services:Libros"]);
+
+            });
+
+            services.AddScoped<ILibrosService, LibrosService>();
 
         }
 
