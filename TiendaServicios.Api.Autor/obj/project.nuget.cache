@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Os1x+Jfgrgomt87yWZ0W6ITdjfk9pmO4LbU7NyMOhRQ2Zrp2U5q8+3ZlLGGmwD0FOtb2tXInqkOr4iI63CPPLA==",
+  "dgSpecHash": "YIAO1nZuuFDqE8jfJF07CXnzQoC9dwq3CuUVilFXueeKuJsU+kcIAblrYhRc33fuV3GZWBEKsNVNLyvZLAuoNQ==",
   "success": true,
   "projectFilePath": "Z:\\PROGRAMACION\\C#\\.NETCORE\\TiendaServicios\\TiendaServicios.Api.Autor\\TiendaServicios.Api.Autor.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,7 @@
     "C:\\Users\\gerol\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.7\\microsoft.extensions.logging.abstractions.3.1.7.nupkg.sha512",
     "C:\\Users\\gerol\\.nuget\\packages\\microsoft.extensions.options\\3.1.7\\microsoft.extensions.options.3.1.7.nupkg.sha512",
     "C:\\Users\\gerol\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.7\\microsoft.extensions.primitives.3.1.7.nupkg.sha512",
+    "C:\\Users\\gerol\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\gerol\\.nuget\\packages\\npgsql\\4.1.3.1\\npgsql.4.1.3.1.nupkg.sha512",
     "C:\\Users\\gerol\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\3.1.4\\npgsql.entityframeworkcore.postgresql.3.1.4.nupkg.sha512",
     "C:\\Users\\gerol\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",

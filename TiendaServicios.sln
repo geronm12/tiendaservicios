@@ -9,11 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicios.Api.Libro",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicios.Api.Carrito", "TiendaServicios.Api.Carrito\TiendaServicios.Api.Carrito.csproj", "{A54BE66E-FDDC-4450-8876-DA2104836179}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.Libro.Tests", "TiendaServicios.Api.Libro.Tests\TiendaServicios.Api.Libro.Tests.csproj", "{06C55AA0-104F-4B81-9B91-A7AEF213ED27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicios.Api.Libro.Tests", "TiendaServicios.Api.Libro.Tests\TiendaServicios.Api.Libro.Tests.csproj", "{06C55AA0-104F-4B81-9B91-A7AEF213ED27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.Autor.Tests", "TiendaServicios.Api.Autor.Test\TiendaServicios.Api.Autor.Tests.csproj", "{F67718D3-566A-44E3-A1E2-B953F587C533}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.Carrito.Tests", "TiendaServicios.Api.Carrito.Tests\TiendaServicios.Api.Carrito.Tests.csproj", "{76B766FE-05F6-4376-8446-A3B6898296C0}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5E32ED8F-8CB1-4DA8-A8E7-CF622396A945}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,14 +35,10 @@ Global
 		{06C55AA0-104F-4B81-9B91-A7AEF213ED27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06C55AA0-104F-4B81-9B91-A7AEF213ED27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06C55AA0-104F-4B81-9B91-A7AEF213ED27}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F67718D3-566A-44E3-A1E2-B953F587C533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F67718D3-566A-44E3-A1E2-B953F587C533}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F67718D3-566A-44E3-A1E2-B953F587C533}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F67718D3-566A-44E3-A1E2-B953F587C533}.Release|Any CPU.Build.0 = Release|Any CPU
-		{76B766FE-05F6-4376-8446-A3B6898296C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76B766FE-05F6-4376-8446-A3B6898296C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76B766FE-05F6-4376-8446-A3B6898296C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76B766FE-05F6-4376-8446-A3B6898296C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E32ED8F-8CB1-4DA8-A8E7-CF622396A945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E32ED8F-8CB1-4DA8-A8E7-CF622396A945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E32ED8F-8CB1-4DA8-A8E7-CF622396A945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E32ED8F-8CB1-4DA8-A8E7-CF622396A945}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

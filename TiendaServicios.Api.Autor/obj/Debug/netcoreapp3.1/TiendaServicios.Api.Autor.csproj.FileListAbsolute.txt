@@ -2,7 +2,6 @@ Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\netcoreapp3.1\appsettings.json
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\netcoreapp3.1\TiendaServicios.Api.Autor.exe
-Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Autor\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Autor.csprojAssemblyReference.cache
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Autor\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Autor.AssemblyInfoInputs.cache
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Autor\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Autor.AssemblyInfo.cs
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Autor\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Autor.RazorTargetAssemblyInfo.cache
@@ -45,6 +44,7 @@ Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\netcoreapp3.1\AutoMapper.dll
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Autor\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Autor.csprojAssemblyReference.cache
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Autor\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Autor.csproj.CoreCompileInputs.cache
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Autor\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Autor.MvcApplicationPartsAssemblyInfo.cs
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Autor\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Autor.MvcApplicationPartsAssemblyInfo.cache

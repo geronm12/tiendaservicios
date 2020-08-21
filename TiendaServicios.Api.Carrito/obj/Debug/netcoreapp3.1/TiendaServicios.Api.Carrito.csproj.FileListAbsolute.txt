@@ -48,7 +48,6 @@ Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Carrito\bin\Debu
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Carrito\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Carrito\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Carrito\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Carrito\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Carrito.csprojAssemblyReference.cache
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Carrito\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Carrito.AssemblyInfoInputs.cache
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Carrito\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Carrito.AssemblyInfo.cs
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Carrito\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Carrito.csproj.CoreCompileInputs.cache
@@ -61,3 +60,4 @@ Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Carrito\obj\Debu
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Carrito\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Carrito.dll
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Carrito\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Carrito.pdb
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Carrito\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Carrito.genruntimeconfig.cache
+Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Carrito\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Carrito.csprojAssemblyReference.cache
