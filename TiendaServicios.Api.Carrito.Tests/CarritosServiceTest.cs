@@ -116,6 +116,7 @@ namespace TiendaServicios.Api.Carrito.Tests
         [Fact]
         public async void ObtenerCarritoId()
         {
+            //Obtenewr carrito aID
             var mock = CrearContext();
 
             var mockHttp = new Mock<IHttpClientFactory>();
