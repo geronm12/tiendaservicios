@@ -10,8 +10,8 @@ namespace TiendaServicios.Api.Carrito.Tests
         private readonly IEnumerator<T> enumerator;
         public T Current => enumerator.Current;
 
-        public AsyncEnumerator(IEnumerator<T> enumerato) 
-            => this.enumerator = enumerato ?? throw new NotImplementedException();
+        public AsyncEnumerator(IEnumerator<T> enumerator) 
+            => this.enumerator = enumerator ?? throw new ArgumentNullException();
 
 
         public async ValueTask DisposeAsync()

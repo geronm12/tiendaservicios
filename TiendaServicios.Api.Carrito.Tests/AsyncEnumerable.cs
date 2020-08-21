@@ -7,6 +7,11 @@ namespace TiendaServicios.Api.Carrito.Tests
 {
     public class AsyncEnumerable<T> : EnumerableQuery<T>, IAsyncEnumerable<T>, IQueryable<T>
     {
+        public AsyncEnumerable(IEnumerable<T> enumerable) : base(enumerable)
+        {
+
+        }
+
         public AsyncEnumerable(Expression expression)
             :base(expression)
         {

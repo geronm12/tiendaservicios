@@ -25,13 +25,16 @@ namespace TiendaServicios.Api.Carrito.Aplicacion
 
             private readonly ILibrosService _libroService;
 
-           
+            public Manejador(CarritoContexto context)
+            {
+                _context = context;
+            }
+
+
             public Manejador(CarritoContexto context, 
                  ILibrosService service)
             {
                 _context = context;
-
-               
 
                 _libroService = service;
 

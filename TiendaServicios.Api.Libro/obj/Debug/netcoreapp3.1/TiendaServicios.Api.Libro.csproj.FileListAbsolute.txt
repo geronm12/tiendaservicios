@@ -66,3 +66,4 @@ Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\obj\Debug\
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.dll
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.pdb
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.genruntimeconfig.cache
+Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.csprojAssemblyReference.cache
