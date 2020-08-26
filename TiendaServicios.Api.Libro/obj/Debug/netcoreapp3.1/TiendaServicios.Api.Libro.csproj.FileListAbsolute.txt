@@ -60,10 +60,10 @@ Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\bin\Debug\
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.csproj.CoreCompileInputs.cache
-Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.MvcApplicationPartsAssemblyInfo.cs
-Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.MvcApplicationPartsAssemblyInfo.cache
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.dll
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.pdb
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.genruntimeconfig.cache
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.csprojAssemblyReference.cache
+Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.csproj.CoreCompileInputs.cache
+Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.MvcApplicationPartsAssemblyInfo.cs
+Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Libro\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.MvcApplicationPartsAssemblyInfo.cache

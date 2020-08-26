@@ -1,3 +1,7 @@
+networks:
+  default:
+    external:
+      name: microservicenet
 services:
   tiendaservicios.api.autor:
     build:
@@ -7,5 +11,6 @@ services:
       ASPNETCORE_ENVIRONMENT: Development
     image: tiendaserviciosapiautor
     ports:
-    - target: 80
+    - published: 6104
+      target: 80
 version: '3.4'
