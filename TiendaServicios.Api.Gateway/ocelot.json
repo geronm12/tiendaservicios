@@ -1,0 +1,59 @@
+{
+  "Routes": [
+
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tiendaservicios_tiendaservicios.api.autor_1",
+          "Port": "80"
+        }
+      ],
+      "UpstreamPathTemplate": "/autor/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "Key": "AutorTotal"
+    },
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tiendaservicios_tiendaservicios.api.libro_1",
+          "Port": "80"
+        }
+      ],
+      "UpstreamPathTemplate": "/libro/{everything}/",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "DelegatingHandlers": [
+        "LibroHandler"
+      ],
+      "Key": "LibroTotal"
+    },
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tiendaservicios_tiendaservicios.api.carrito_1",
+          "Port": "80"
+        }
+      ],
+      "UpstreamPathTemplate": "/carrito/{everything}/",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    }
+  ],
+  "Aggregates": [
+    {
+      "RouteKeys": [
+        "AutorTotal",
+        "LibroTotal"
+      ],
+      "UpstreamPathTemplate":  "/LibroAutor"
+    }
+  ]
+}
+
+
+
+      

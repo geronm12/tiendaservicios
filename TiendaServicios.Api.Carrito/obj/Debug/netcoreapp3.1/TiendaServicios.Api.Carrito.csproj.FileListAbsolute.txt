@@ -50,9 +50,6 @@ Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Carrito\bin\Debu
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Carrito\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Carrito\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Carrito.AssemblyInfoInputs.cache
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Carrito\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Carrito.AssemblyInfo.cs
-Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Carrito\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Carrito.csproj.CoreCompileInputs.cache
-Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Carrito\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Carrito.MvcApplicationPartsAssemblyInfo.cs
-Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Carrito\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Carrito.MvcApplicationPartsAssemblyInfo.cache
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Carrito\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Carrito.RazorTargetAssemblyInfo.cache
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Carrito\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Carrito.csproj.CopyComplete
 Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Api.Carrito\obj\Debug\netcoreapp3.1\staticwebassets\TiendaServicios.Api.Carrito.StaticWebAssets.Manifest.cache

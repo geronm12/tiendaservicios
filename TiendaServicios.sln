@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicios.Api.Libro.T
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5E32ED8F-8CB1-4DA8-A8E7-CF622396A945}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.Gateway", "TiendaServicios.Api.Gateway\TiendaServicios.Api.Gateway.csproj", "{C927B643-94A8-4839-8C7E-083D1E689F65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5E32ED8F-8CB1-4DA8-A8E7-CF622396A945}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E32ED8F-8CB1-4DA8-A8E7-CF622396A945}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E32ED8F-8CB1-4DA8-A8E7-CF622396A945}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C927B643-94A8-4839-8C7E-083D1E689F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C927B643-94A8-4839-8C7E-083D1E689F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C927B643-94A8-4839-8C7E-083D1E689F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C927B643-94A8-4839-8C7E-083D1E689F65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
