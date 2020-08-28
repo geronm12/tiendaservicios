@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TiendaServicios.Api.Gateway.RemoteInterface;
 
 namespace TiendaServicios.Api.Gateway.LibroRemote
 {
@@ -17,7 +18,7 @@ namespace TiendaServicios.Api.Gateway.LibroRemote
 
         public Guid? AutorLibro { get; set;  }
 
-
+        public AutorModeloRemote AutorData { get; set; }
 
     }
 }

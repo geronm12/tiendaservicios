@@ -2,7 +2,7 @@
   "Routes": [
 
     {
-      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamPathTemplate": "/api/autor",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -10,12 +10,12 @@
           "Port": "80"
         }
       ],
-      "UpstreamPathTemplate": "/autor/{everything}",
+      "UpstreamPathTemplate": "/Autor",
       "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
       "Key": "AutorTotal"
     },
     {
-      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamPathTemplate": "/api/Libro",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -23,15 +23,28 @@
           "Port": "80"
         }
       ],
-      "UpstreamPathTemplate": "/libro/{everything}/",
+      "UpstreamPathTemplate": "/Libro",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "Key": "LibroTotal"
+      },
+    {
+      "DownstreamPathTemplate": "/api/libro/{Id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tiendaservicios_tiendaservicios.api.libro_1",
+          "Port": "80"
+        }
+      ],
+      "UpstreamPathTemplate": "/Libro/{Id}",
       "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
       "DelegatingHandlers": [
         "LibroHandler"
-      ],
-      "Key": "LibroTotal"
+      ]
+
     },
     {
-      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamPathTemplate": "/api/carrito",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -39,7 +52,7 @@
           "Port": "80"
         }
       ],
-      "UpstreamPathTemplate": "/carrito/{everything}/",
+      "UpstreamPathTemplate": "/Carrito",
       "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
     }
   ],
