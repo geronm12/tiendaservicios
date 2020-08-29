@@ -15,6 +15,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using TiendaServicios.Api.Libro.Aplicacion;
 using TiendaServicios.Api.Libro.Persistencia;
+using TiendaServicios.RabbitMQ.Bus.BusRabbit;
 
 namespace TiendaServicios.Api.Libro
 {
@@ -30,6 +31,8 @@ namespace TiendaServicios.Api.Libro
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient<IRabbitEventBus, IRabbitEventBus>();
+
             services.AddControllers()
                 .AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<Nuevo>());
 

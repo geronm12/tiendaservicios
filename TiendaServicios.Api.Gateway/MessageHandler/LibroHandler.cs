@@ -52,6 +52,7 @@ namespace TiendaServicios.Api.Gateway.MessageHandler
                     resultado.AutorData = objetoAutor;
                     var resultadoStr = JsonSerializer.Serialize(resultado);
                     response.Content = new StringContent(resultadoStr, System.Text.Encoding.UTF8, "application/json");
+
                 
                 }
 

@@ -5,6 +5,8 @@ using System.Threading;
 using System.Threading.Tasks;
 using TiendaServicios.Api.Libro.Modelo;
 using TiendaServicios.Api.Libro.Persistencia;
+using TiendaServicios.RabbitMQ.Bus.BusRabbit;
+using TiendaServicios.RabbitMQ.Bus.EventoQueue;
 
 namespace TiendaServicios.Api.Libro.Aplicacion
 {
@@ -37,9 +39,13 @@ namespace TiendaServicios.Api.Libro.Aplicacion
         public class Manejador : IRequestHandler<Ejecuta>
         {
             private readonly ContextoLibreria _context;
-            public Manejador(ContextoLibreria context)
+            private readonly IRabbitEventBus _eventBus;
+            public Manejador(ContextoLibreria context, IRabbitEventBus eventBus)
             {
                 _context = context;
+
+                _eventBus = eventBus;
+
             }
 
             public async Task<Unit> Handle(Ejecuta request, CancellationToken cancellationToken)
@@ -57,13 +63,15 @@ namespace TiendaServicios.Api.Libro.Aplicacion
 
                 var res = await _context.SaveChangesAsync();
 
+                _eventBus.Publish(new EmailEventoQueue("gerolpz01@gmail.com", request.Titulo, "Contenido de ejemplo"));
+
+
                 if (res > 0) {
 
                     return Unit.Value;
-                   
                 }
 
-
+             
                 throw new Exception("Ocurrió un error al agregar el registro");
 
             }

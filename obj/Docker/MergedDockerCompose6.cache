@@ -1,0 +1,51 @@
+networks:
+  default:
+    external:
+      name: microservicenet
+services:
+  tiendaservicios.api.autor:
+    build:
+      context: Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios
+      dockerfile: TiendaServicios.Api.Autor/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: tiendaserviciosapiautor
+    ports:
+    - published: 6104
+      target: 80
+  tiendaservicios.api.carrito:
+    build:
+      context: Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios
+      dockerfile: TiendaServicios.Api.Carrito/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      Services__Libros: http://tiendaservicios.api.libro
+    image: tiendaserviciosapicarrito
+    ports:
+    - published: 6106
+      target: 80
+  tiendaservicios.api.gateway:
+    build:
+      context: Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios
+      dockerfile: TiendaServicios.Api.Gateway/Dockerfile
+    depends_on:
+    - tiendaservicios.api.autor
+    - tiendaservicios.api.libro
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      Services__Autor: http://tiendaservicios.api.gateway
+    image: tiendaserviciosapigateway
+    ports:
+    - published: 6107
+      target: 80
+  tiendaservicios.api.libro:
+    build:
+      context: Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios
+      dockerfile: TiendaServicios.Api.Libro/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: tiendaserviciosapilibro
+    ports:
+    - published: 6105
+      target: 80
+version: '3.4'
