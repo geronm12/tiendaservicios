@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/5f7cNeuJshO+yopUpjYNtca5saJB+79HBe1zZT8Wk+4z+MhTDiiigZ7JzPSirH3cnBeP9NPcqrlAnezRi3w0Q==",
+  "dgSpecHash": "dW6JITHkGyoR0ckextMNbaD9s5brFWieGZx188RF9+67/0SJXhB0kqrVgM3PQSmGQAEiXtZxlR8T6rXviLYFHQ==",
   "success": true,
   "projectFilePath": "Z:\\PROGRAMACION\\C#\\.NETCORE\\TiendaServicios\\TiendaServicios.Api.Autor\\TiendaServicios.Api.Autor.csproj",
   "expectedPackageFiles": [
@@ -36,6 +36,8 @@
     "C:\\Users\\gerol\\.nuget\\packages\\npgsql\\4.1.3.1\\npgsql.4.1.3.1.nupkg.sha512",
     "C:\\Users\\gerol\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\3.1.4\\npgsql.entityframeworkcore.postgresql.3.1.4.nupkg.sha512",
     "C:\\Users\\gerol\\.nuget\\packages\\rabbitmq.client\\6.2.1\\rabbitmq.client.6.2.1.nupkg.sha512",
+    "C:\\Users\\gerol\\.nuget\\packages\\sendgrid\\9.21.0\\sendgrid.9.21.0.nupkg.sha512",
+    "C:\\Users\\gerol\\.nuget\\packages\\starkbank-ecdsa\\1.2.0\\starkbank-ecdsa.1.2.0.nupkg.sha512",
     "C:\\Users\\gerol\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\gerol\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\gerol\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",

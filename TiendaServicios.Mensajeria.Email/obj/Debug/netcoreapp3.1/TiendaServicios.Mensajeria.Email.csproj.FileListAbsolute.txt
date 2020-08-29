@@ -1,0 +1,8 @@
+Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Mensajeria.Email\bin\Debug\netcoreapp3.1\TiendaServicios.Mensajeria.Email.deps.json
+Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Mensajeria.Email\bin\Debug\netcoreapp3.1\TiendaServicios.Mensajeria.Email.dll
+Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Mensajeria.Email\obj\Debug\netcoreapp3.1\TiendaServicios.Mensajeria.Email.AssemblyInfoInputs.cache
+Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Mensajeria.Email\obj\Debug\netcoreapp3.1\TiendaServicios.Mensajeria.Email.AssemblyInfo.cs
+Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Mensajeria.Email\bin\Debug\netcoreapp3.1\TiendaServicios.Mensajeria.Email.pdb
+Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Mensajeria.Email\obj\Debug\netcoreapp3.1\TiendaServicios.Mensajeria.Email.csproj.CoreCompileInputs.cache
+Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Mensajeria.Email\obj\Debug\netcoreapp3.1\TiendaServicios.Mensajeria.Email.dll
+Z:\PROGRAMACION\C#\.NETCORE\TiendaServicios\TiendaServicios.Mensajeria.Email\obj\Debug\netcoreapp3.1\TiendaServicios.Mensajeria.Email.pdb

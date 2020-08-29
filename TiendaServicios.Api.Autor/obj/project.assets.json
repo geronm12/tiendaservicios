@@ -381,6 +381,28 @@
           "lib/netstandard2.0/RabbitMQ.Client.dll": {}
         }
       },
+      "SendGrid/9.21.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1",
+          "starkbank-ecdsa": "[1.2.0, 2.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/SendGrid.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SendGrid.dll": {}
+        }
+      },
+      "starkbank-ecdsa/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/StarkbankEcdsa.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/StarkbankEcdsa.dll": {}
+        }
+      },
       "System.Collections.Immutable/1.7.1": {
         "type": "package",
         "compile": {
@@ -444,11 +466,25 @@
           "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
         }
       },
+      "TiendaServicios.Mensajeria.Email/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "SendGrid": "9.21.0"
+        },
+        "compile": {
+          "bin/placeholder/TiendaServicios.Mensajeria.Email.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TiendaServicios.Mensajeria.Email.dll": {}
+        }
+      },
       "TiendaServicios.RabbitMQ.Bus/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "MediatR": "8.1.0",
+          "Microsoft.Extensions.DependencyInjection": "3.1.7",
           "Newtonsoft.Json": "12.0.3",
           "RabbitMQ.Client": "6.2.1"
         },
@@ -1109,6 +1145,45 @@
         "rabbitmq.client.nuspec"
       ]
     },
+    "SendGrid/9.21.0": {
+      "sha512": "GY7NZcS0K4WjepDZhs5XxORqZDC1FmTz6iT/j9crCSCMBG4Y/9I/ia9b6ws8209Yv1uVjnDcNr0gf54ibIxIsw==",
+      "type": "package",
+      "path": "sendgrid/9.21.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SendGrid.dll",
+        "lib/net40/SendGrid.pdb",
+        "lib/net40/SendGrid.xml",
+        "lib/net452/SendGrid.dll",
+        "lib/net452/SendGrid.pdb",
+        "lib/net452/SendGrid.xml",
+        "lib/netstandard1.3/SendGrid.dll",
+        "lib/netstandard1.3/SendGrid.pdb",
+        "lib/netstandard1.3/SendGrid.xml",
+        "lib/netstandard2.0/SendGrid.dll",
+        "lib/netstandard2.0/SendGrid.pdb",
+        "lib/netstandard2.0/SendGrid.xml",
+        "sendgrid.9.21.0.nupkg.sha512",
+        "sendgrid.nuspec"
+      ]
+    },
+    "starkbank-ecdsa/1.2.0": {
+      "sha512": "hP53QPYOOEIR44EK9phz+DYliM6DEieDZxpb8GZzE+++qyrWqUscKcyHCC6L9yu/ehllYtqxtT4qrjWDsuQlUQ==",
+      "type": "package",
+      "path": "starkbank-ecdsa/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/StarkbankEcdsa.dll",
+        "lib/net452/StarkbankEcdsa.dll",
+        "lib/netstandard1.3/StarkbankEcdsa.dll",
+        "lib/netstandard2.0/StarkbankEcdsa.dll",
+        "lib/netstandard2.1/StarkbankEcdsa.dll",
+        "starkbank-ecdsa.1.2.0.nupkg.sha512",
+        "starkbank-ecdsa.nuspec"
+      ]
+    },
     "System.Collections.Immutable/1.7.1": {
       "sha512": "B43Zsz5EfMwyEbnObwRxW5u85fzJma3lrDeGcSAV1qkhSRTNY5uXAByTn9h9ddNdhM+4/YoLc/CI43umjwIl9Q==",
       "type": "package",
@@ -1376,6 +1451,11 @@
         "version.txt"
       ]
     },
+    "TiendaServicios.Mensajeria.Email/1.0.0": {
+      "type": "project",
+      "path": "../TiendaServicios.Mensajeria.Email/TiendaServicios.Mensajeria.Email.csproj",
+      "msbuildProject": "../TiendaServicios.Mensajeria.Email/TiendaServicios.Mensajeria.Email.csproj"
+    },
     "TiendaServicios.RabbitMQ.Bus/1.0.0": {
       "type": "project",
       "path": "../TiendaServicios.RabbitMQ.Bus/TiendaServicios.RabbitMQ.Bus.csproj",
@@ -1392,6 +1472,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.7",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 3.1.4",
+      "TiendaServicios.Mensajeria.Email >= 1.0.0",
       "TiendaServicios.RabbitMQ.Bus >= 1.0.0"
     ]
   },
@@ -1425,6 +1506,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "Z:\\PROGRAMACION\\C#\\.NETCORE\\TiendaServicios\\TiendaServicios.Mensajeria.Email\\TiendaServicios.Mensajeria.Email.csproj": {
+              "projectPath": "Z:\\PROGRAMACION\\C#\\.NETCORE\\TiendaServicios\\TiendaServicios.Mensajeria.Email\\TiendaServicios.Mensajeria.Email.csproj"
+            },
             "Z:\\PROGRAMACION\\C#\\.NETCORE\\TiendaServicios\\TiendaServicios.RabbitMQ.Bus\\TiendaServicios.RabbitMQ.Bus.csproj": {
               "projectPath": "Z:\\PROGRAMACION\\C#\\.NETCORE\\TiendaServicios\\TiendaServicios.RabbitMQ.Bus\\TiendaServicios.RabbitMQ.Bus.csproj"
             }
